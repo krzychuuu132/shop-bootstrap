@@ -1,0 +1,28 @@
+{
+  "name": "shop-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prod": "webpack --config ./webpack.config.prod.js"
+  },
+  "author": "Krzysztof U",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.4.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.6",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {}
+}
