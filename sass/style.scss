@@ -1,6 +1,9 @@
-body {
+* {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 @import "./variables";
-@import "./jumbotron"
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./jumbotron";
+@import "./footer"
